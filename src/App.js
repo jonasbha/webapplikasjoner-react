@@ -1,6 +1,9 @@
+import { useState } from "react";
 
 
 const App = () =>  {
+
+  const [someUnusedState, setState] = useState();
 
   return (
     <main>
